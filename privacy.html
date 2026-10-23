@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy | JobTrail HK</title><style>body{font:17px/1.7 system-ui,sans-serif;max-width:800px;margin:50px auto;padding:0 24px;color:#233047;background:#f5f7fb}a{color:#2855c5}main{background:white;padding:30px;border-radius:16px}</style></head>
+<body><main>
+<p><a href="index.html">JobTrail HK</a></p>
+<h1>Privacy Policy</h1>
+<p>Last updated: 23 October 2026</p>
+<p>This policy describes the JobTrail HK job-tracking application and this public information site. The application is being prepared for public launch; Gmail API integration is not yet deployed.</p>
+<h2>Information processed</h2>
+<ul><li>Account information: email address, password hash, verification status, and authentication, verification and password-reset records. Passwords are stored as hashes rather than readable passwords.</li><li>Job-search content you provide: job titles, companies, links, application status, dates, notes, descriptions and cover-letter text.</li><li>Documents submitted for text extraction: PDF or DOCX content and filenames are processed to return extracted text. The extraction endpoint does not itself save a job record; content you subsequently save becomes part of your stored records.</li><li>Technical information: session and CSRF cookies, request information such as IP addresses, and operational or error logs. Hosting providers may also process request metadata.</li></ul>
+<h2>Why information is used</h2>
+<p>To provide accounts and job-tracking features, process requested imports and documents, send account-related emails, protect access, diagnose failures and respond to support requests.</p>
+<h2>Google account authorization and email</h2>
+<p>The planned Gmail API integration requests only the gmail.send permission for the operator's JobTrail sender account. It is used to send verification, password-reset and requested account-support emails. It does not request permission to read the sender's inbox. Website users receiving these messages do not need to authorize their own Gmail accounts.</p>
+<p>OAuth access and refresh tokens are sensitive credentials used by the server to send authorized messages. They are not intended to be exposed through this public website or its repository. Until the API integration is deployed, account emails use Gmail SMTP.</p>
+<p>JobTrail HK's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is not sold or used for advertising or AI model training.</p>
+<h2>Service providers and external websites</h2>
+<p>Google processes account emails and email delivery. The application uses PostgreSQL for stored records; the development database is hosted by Neon. Hosting and database providers process data needed to operate their services. This public information site is hosted on GitHub Pages when enabled. Production hosting details will be updated before public launch.</p>
+<p>Requested job-link previews may contact supported external job websites, which receive the requested URL and server request metadata. Opening external links is subject to those websites' own privacy policies.</p>
+<h2>Retention and deletion requests</h2>
+<p>Saved records are kept to provide the service until removed or no longer needed. Session, verification and reset records have validity limits, but expiration does not by itself guarantee immediate deletion of all database or log copies. Backup and provider retention may differ.</p>
+<p>Contact jobtrialhk@gmail.com to request access, correction or deletion of your account and associated information. The operator may need to verify account ownership before acting. No automatic deletion deadline is promised by this policy.</p>
+<h2>Security and choices</h2>
+<p>Do not upload unnecessary sensitive information. Keep your account credentials private. No internet service can guarantee absolute security. You can stop using the application, remove records through available controls, or contact the operator. The sender account owner can revoke Google authorization through Google Account settings, which prevents further authorized email sending until access is restored.</p>
+<h2>Changes and contact</h2>
+<p>This policy will be updated when data handling or providers change. Contact: <a href="mailto:jobtrialhk@gmail.com">jobtrialhk@gmail.com</a>.</p>
+</main></body></html>
